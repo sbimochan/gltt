@@ -40,3 +40,5 @@ gltt  "cbb99f8e - Change Logic for datetime (14 minutes ago) <sbimochan>
      10237353 - Implement logic (47 minutes ago) <sbimochan>"
 ```
 The result produced can then be pasted to your timesheet.
+
+<script type='text/javascript' src='https://ko-fi.com/widgets/widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support Me on Ko-fi', '#46b798', 'D1D8IIBU');kofiwidget2.draw();</script>
