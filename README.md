@@ -41,4 +41,4 @@ gltt  "cbb99f8e - Change Logic for datetime (14 minutes ago) <sbimochan>
 ```
 The result produced can then be pasted to your timesheet.
 
-<script type='text/javascript' src='https://ko-fi.com/widgets/widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support Me on Ko-fi', '#46b798', 'D1D8IIBU');kofiwidget2.draw();</script>
+<a href='https://ko-fi.com/D1D8IIBU' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://az743702.vo.msecnd.net/cdn/kofi2.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
