@@ -5,6 +5,7 @@ __email__ = 'bmochan@gmail.com'
 __version__ = '0.1.0'
 
 from sys import argv
+import re 
 
 standup_msg = (argv[1])
 lines = standup_msg.split("\n")
