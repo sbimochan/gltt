@@ -11,9 +11,11 @@ lines = standup_msg.split("\n")
 separated_lines = [] # 🥥
 
 for line in reversed(lines):
-    line_without_hyphen = line.split("-") # 😆
-    separated_lines.append(line_without_hyphen[1])
+    lines_without_hyphen = re.sub('^[\w\d]*\s(.)', '', line)
+    separated_lines.append(lines_without_hyphen)
+
 for counter, separated_line in enumerate(separated_lines):
-    line_without_parenthesis = separated_line.split("(") # 🤫
-    result = str(counter+1) + ")" + line_without_parenthesis[0]
+    cleaned_line= re.sub('\((.*?)\)(\s<(.*)>)?', '', separated_line)
+    cleaned_line = cleaned_line.strip()
+    result = str(counter+1) + ")" + cleaned_line
     print(result)
