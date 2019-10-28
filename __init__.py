@@ -1,15 +1,15 @@
 """Top-level package for Git log to timesheet."""
 
-__author__ = """Bimochan Shrestha 😎"""
+__author__ = """Bimochan Shrestha"""
 __email__ = 'bmochan@gmail.com'
 __version__ = '0.1.0'
 
 from sys import argv
-import re 
+import re
 
 standup_msg = (argv[1])
 lines = standup_msg.split("\n")
-separated_lines = [] # 🥥
+separated_lines = []
 
 for line in reversed(lines):
     lines_without_hyphen = re.sub('^[\w\d]*\s(.)', '', line)
