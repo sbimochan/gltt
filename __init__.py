@@ -6,8 +6,12 @@ __version__ = '0.1.0'
 
 from sys import argv
 import re
+import subprocess
 
-standup_msg = (argv[1])
+if(len(argv) > 1):
+    standup_msg = subprocess.getoutput('git standup -d {}'.format(argv[1]))
+else:
+    standup_msg = subprocess.getoutput('git standup')
 lines = standup_msg.split("\n")
 separated_lines = []
 

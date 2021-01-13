@@ -30,15 +30,20 @@ Install git-log-to-timesheet
 ```shell
 cd
 git clone https://github.com/sbimochan/gltt.git
-alias gltt="python3 ~/gltt/__init__.py"
+alias gltt="python3 ~/gltt"
 ```
 
 ## Usage
 Simply copy the result produced by git standup and dump using git-log-to-timesheet
 ```shell
-gltt  "cbb99f8e - Change Logic for datetime (14 minutes ago) <sbimochan>
-     10237353 - Implement logic (47 minutes ago) <sbimochan>"
+gltt
 ```
+if needed to produce older logs
+```shell
+gltt 3
+```
+where 3 means 3 days
+
 The result produced can then be pasted to your timesheet.
 
 <a href='https://ko-fi.com/D1D8IIBU' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://az743702.vo.msecnd.net/cdn/kofi2.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
