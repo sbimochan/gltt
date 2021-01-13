@@ -34,10 +34,11 @@ alias gltt="python3 ~/gltt"
 ```
 
 ## Usage
-Simply copy the result produced by git standup and dump using git-log-to-timesheet
+
 ```shell
 gltt
 ```
+
 if needed to produce older logs
 ```shell
 gltt 3
