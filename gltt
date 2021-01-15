@@ -25,4 +25,4 @@ if __name__ == '__main__':
         cleaned_line= re.sub('\((.*?)\)(\s<(.*)>)?', '', separated_line)
         cleaned_line = cleaned_line.strip()
         result = str(counter+1) + ")" + cleaned_line
-        print(result)
+        print(result.rstrip())
