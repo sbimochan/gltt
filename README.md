@@ -30,7 +30,7 @@ Install git-log-to-timesheet
 ```shell
 cd
 git clone https://github.com/sbimochan/gltt.git
-alias gltt="python3 ~/gltt"
+alias gltt="python3 ~/gltt/__init__.py"
 ```
 
 ## Usage
