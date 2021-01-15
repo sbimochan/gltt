@@ -27,10 +27,10 @@ git standup -d x
 Install git-log-to-timesheet
 
 ## Install
+
+One liner install
 ```shell
-cd
-git clone https://github.com/sbimochan/gltt.git
-alias gltt="python3 ~/gltt"
+sudo curl https://raw.githubusercontent.com/sbimochan/gltt/master/gltt -o /usr/local/bin/gltt && sudo chmod +x /usr/local/bin/gltt
 ```
 
 ## Usage
