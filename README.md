@@ -36,14 +36,9 @@ sudo curl https://raw.githubusercontent.com/sbimochan/gltt/master/gltt -o /usr/l
 ## Usage
 
 ```shell
-gltt
+gltt "{result from git standup command}"
 ```
 
-if needed to produce older logs
-```shell
-gltt 3
-```
-where 3 means 3 days
 
 The result produced can then be pasted to your timesheet.
 
