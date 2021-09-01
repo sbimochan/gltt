@@ -10,10 +10,7 @@ import re
 import subprocess
 
 if __name__ == '__main__':
-    if(len(argv) > 1):
-        standup_msg = subprocess.getoutput('git standup -d {}'.format(argv[1]))
-    else:
-        standup_msg = subprocess.getoutput('git standup')
+    standup_msg = (argv[1])
     lines = standup_msg.split("\n")
     separated_lines = []
 
